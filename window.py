@@ -60,7 +60,7 @@ frame.pack(expand=True,fill='both',padx=10,pady=10)
 
 # Labels and Buttons
 empty_label = ttk.Label(frame)
-Browse_Label = ttk.Label(text="File Selected: ")
+Browse_Label = ttk.Label(text="File Selected:2 ")
 Browse_btn = ttk.Button(frame,text="Browse For files", command=browse_file)
 Quit_btn = ttk.Button(frame,text="Quit",command = root.quit)
 text_zone = tkinter.Text(frame,wrap='none')
